@@ -5,8 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grocery list App</title>
+		<link rel="stylesheet" href="assets/styles/style.css">
 </head>
-<body>
-    
+<body onload="loadItems()">
+	<h1>Grocery List App</h1>
+	<input type="text" id="item" placeholder="Enter item">
+	<button onclick="addItems()">Add Items</button>
+	<div id="list"></div>
+	<button onclick="saveItems()">Save List</button>
+  
+	
+	<script src="grocery.js"></script>
 </body>
 </html>
