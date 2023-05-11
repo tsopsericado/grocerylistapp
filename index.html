@@ -7,14 +7,22 @@
     <title>Grocery list App</title>
 		<link rel="stylesheet" href="assets/styles/style.css">
 </head>
-<body onload="loadItems()">
+<body>
+	<div class="container">
 	<h1>Grocery List App</h1>
-	<input type="text" id="item" placeholder="Enter item">
-	<button onclick="addItems()">Add Items</button>
-	<div id="list"></div>
-	<button onclick="saveItems()">Save List</button>
+	<p id="intro">Remember get these when go shopping</p>
+	<input type="text" id="userinput" placeholder="Enter items">
+	<button id="enter">Add</button>
+	<ul>
+		<li><span>Notebook</span></li>
+		<li><span>jello</span></li>
+		<li><span>spinach</span></li>
+		<li><span>Rice</span></li>
+		<li><span>Birthday cake</span></li>
+		<li><span>candles</span></li>
+	</ul>
   
-	
+	</div>
 	<script src="grocery.js"></script>
 </body>
 </html>
